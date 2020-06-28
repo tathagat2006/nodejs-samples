@@ -1,7 +1,7 @@
 const express = require('express')
 const route = express.Router()
 
-const users = ["Tathagat", "Jatin", "Arnav"]
+const users = ["Tathagat", "Arnav"]
 
 route.get('/users', function(req,res) {
   res.send(users)
